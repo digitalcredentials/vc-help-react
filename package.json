@@ -1,0 +1,40 @@
+{
+  "name": "@digitalcredentials/vc-help-react",
+  "description": "React components providing contextual help content (text/images) for Verifiable Credentials",
+  "version": "1.0.0",
+  "scripts": {
+},
+  "type": "module",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "src",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dcc"
+  ],
+  "engines": {
+    "node": ">=18.0"
+  },
+  "author": {
+    "name": "Digital Credentials Consortium",
+    "url": "https://github.com/digitalcredentials/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalcredentials/vc-help-react"
+  },
+  "homepage": "https://github.com/digitalcredentials/vc-help-react",
+  "bugs": "https://github.com/digitalcredentials/vc-help-react"
+}
