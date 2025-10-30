@@ -1,9 +1,6 @@
 export const IssuerHelp = () => {
   return <>
-    <p>The issuer is the person or institution that issued the Verifiable Credential.
-      This might be, for example, a university that has granted a degree to a student
-      and subsequently then issued a Verifiable Credential attesting that the student did earn the degree.</p>
-    <p>The issuer usually also signs the credential, but in some cases a third party might sign on the issuer's behalf.</p>
+    <p>The issuer is the person or institution that issued the Verifiable Credential, for example, a university that gives students Verifiable Credentials confirming their graduation.</p>
     <p>Fundmentally important is that to trust anything signed by an issuer,
       the DID (Decentralized Identififer) used to
       sign the credential must be known to us in some way. That might be because
